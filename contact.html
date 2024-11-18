@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact us for inquiries or feedback.">
+    <meta name="keywords" content="contact, fitness, inquiries, feedback">
+    <meta property="og:title" content="Contact Us">
+    <meta property="og:description" content="Get in touch with us for fitness-related inquiries.">
+    <title>Contact Us</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/styles.css">
+   
+</head>
+<body>
+   
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">BLOGS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Send Us a Message</h2>
+
+        <div class="row">
+       
+            <div class="col-md-6">
+                <h4>We would be happy to hear from you!</h4>
+                <form action="submit_form.php" method="post">
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Full Name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
+                        <label for="message">Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                </form>
+            </div>
+
+          
+            <div class="col-md-6">
+                <h4>Our Location</h4>
+                <p>Manolo Fortich, Bukidnon</p>
+                <h5>Contact Details:</h5>
+                <p><i class="fas fa-phone-alt"></i> <a href="tel:+63980205002">+63 980 205 002</a></p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:info@fitnessblogs.com">info@fitnessblogs.com</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row text-center text-md-start">
+               
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm border-light rounded">
+                        <div class="card-body">
+                            <h4 class="card-title text-primary">Location</h4>
+                            <p class="card-text">Manolo Fortich, Bukidnon</p>
+                            <div class="card-footer bg-transparent border-0">
+                                <a href="https://goo.gl/maps/4REjvYQQFJdYh3o88" target="_blank" class="btn btn-outline-primary btn-sm">View on Google Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm border-light rounded">
+                        <div class="card-body">
+                            <h4 class="card-title text-success">Contact Us</h4>
+                            <p class="card-text">Phone: <a href="tel:+63980205002" class="text-decoration-none">+63 980 205 002</a></p>
+                            <p class="card-text">Email: <a href="mailto:info@fitnessblogs.com" class="text-decoration-none">info@fitnessblogs.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card shadow-sm border-light rounded">
+                        <div class="card-body">
+                            <h4 class="card-title text-info">Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="https://facebook.com" target="_blank" class="social-icon me-3">
+                                    <i class="fab fa-facebook-f fa-2x text-primary"></i>
+                                </a>
+                                <a href="https://instagram.com" target="_blank" class="social-icon">
+                                    <i class="fab fa-instagram fa-2x text-danger"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+            <div class="text-center mt-4">
+                <p>&copy; 2024 Fitness Blogs. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
